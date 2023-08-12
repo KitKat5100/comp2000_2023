@@ -16,19 +16,4 @@ public class Actor {
         g.drawRect(drawCell.x, drawCell.y, drawCell.width, drawCell.height);
     }
 
-    public class Dog extends Actor {
-
-        Dog(Cell cell){
-            super(cell);
-        }
-    }
-
-    public class Bird extends Actor {
-
-        Bird(Cell cell){
-            super(cell);
-        }
-
-    }
-
 }

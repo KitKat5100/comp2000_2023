@@ -22,12 +22,4 @@ public class Cell extends Rectangle {
     g.setColor(Color.BLACK);
     g.drawRect(x, y, width, height);
   }
-
- /* public boolean contains(Point p) {
-    if(p != null) {
-      return x < p.x && x+size > p.x && y < p.y && y+size > p.y;
-    } else {
-      return false;
-    }
-  } */
 }

@@ -4,7 +4,7 @@ public class Cat extends Actor {
 
     Cat(Cell cell){
         super(cell);
-        fillColor = Color.GREEN;
+        fillColor = Color.BLUE;
     }
 
 }
